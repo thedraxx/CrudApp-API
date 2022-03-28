@@ -35,4 +35,4 @@ Agradezco a John Mircha, tutor y responsable de que haya sido capaz de generar e
 
 ## 📝 Licencia
 
-Copyright © 2021 [Francisco](https://github.com/thedraxx).<br />
+Copyright © 2022 [Francisco](https://github.com/thedraxx).<br />
