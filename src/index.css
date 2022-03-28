@@ -1,0 +1,78 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'monospace';
+}
+
+*,
+*:after,
+::before {
+    box-sizing: inherit;
+}
+
+input[type="text"] {
+    border: thin solid #fff;
+    border-radius: 0.24rem;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    outline: none;
+    margin-bottom: 1rem;
+    outline: none;
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1;
+    background-color: transparent;
+}
+
+button,
+input[type="submit"],
+input[type="reset"] {
+    border: thin solid rgb(114, 114, 114);
+    border-radius: 0.25rem;
+    -webkit-border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+    -ms-border-radius: 0.25rem;
+    -o-border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    margin: 0.0.5rem 0 0;
+    display: inline-block;
+    background-color: #fff;
+    color: rgb(53, 53, 53);
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1;
+    text-transform: none;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+form {
+    margin-bottom: 1rem;
+}
+
+hr {
+    margin: 2rem auto;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: 0.5rem;
+    width: 100%;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 0.5rem;
+    border-bottom: thin solid #fff;
+}
+
+@media screen and (min-width: 1024px){
+    .grid-1-2{
+        align-items: start;
+        gap:2rem;
+    }
+}
